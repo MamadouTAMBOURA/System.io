@@ -1,0 +1,11 @@
+{{ form_start(form) }}
+<div class="col-6 offset-3">
+
+    {{ form_errors(form) }}
+
+    {{ form_row(form.Product) }}
+    {{ form_row(form.TaxNumber) }}
+
+    {{ form_row(form.submit, { 'label': 'Submit me' }) }}
+</div>
+    {{ form_end(form) }}
